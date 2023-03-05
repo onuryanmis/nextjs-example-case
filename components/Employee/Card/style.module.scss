@@ -1,0 +1,75 @@
+$border-color: #e9e5e5;
+
+.card {
+  margin-top: 18px !important;
+
+  .cardBody {
+    text-align: center;
+    border: 1px solid $border-color;
+    background: #fff;
+    padding: 20px 40px;
+
+    &:hover {
+      box-shadow: 0 0 10px 0 rgba(0, 0, 0, .1);
+      transition: all .3s ease-in-out;
+    }
+
+    p.employeeVoteCount {
+      color: #8a8a8a;
+      margin: 10px 0;
+    }
+
+    img.employeeImage {
+      border-radius: 100%;
+      border: 1px solid $border-color;
+    }
+
+    h5.employeeName {
+      font-size: 1.1rem;
+      font-weight: 600;
+      margin: 10px 0;
+
+      a {
+        text-decoration: none;
+        color: #2DC44D;
+      }
+    }
+
+    p.employeeJob {
+      font-size: .7rem;
+      margin-bottom: 10px;
+    }
+
+    ul.employeeList {
+      text-align: left;
+      font-size: 12px;
+      margin-bottom: 12px;
+
+      li {
+        padding-bottom: 8px;
+        padding-top: 8px;
+        border-bottom: 1px solid $border-color;
+
+        b {
+          font-weight: 600;
+        }
+      }
+    }
+
+    button.employeeVoteBtn {
+      color: #2DC44D;
+      font-weight: bold;
+      padding: 10px 20px;
+      background: #fff;
+      border: 1px solid #2DC44D;
+      transition: all .3s ease-in-out;
+
+      &:hover {
+        cursor: pointer;
+        background: #2DC44D;
+        color: #fff;
+        transition: all .3s ease-in-out;
+      }
+    }
+  }
+}
